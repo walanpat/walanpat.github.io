@@ -39,7 +39,7 @@ class Main extends Component {
       return (
         <HashRouter>
           <div>
-            <h1>The Dark Web (informational site)</h1>
+            <h1>The Dark Web through an Anthropological lense</h1>
             <ul className="header">
             <li><NavLink exact to="/">Home</NavLink></li>
               <li><NavLink to="/history">History</NavLink></li>

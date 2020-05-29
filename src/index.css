@@ -11,6 +11,7 @@ body {
     margin: auto;
   }
   h1, h2, p, ul, li {
+    text-indent:50px;
     font-family: sans-serif;
   }
   ul.header li {
@@ -32,6 +33,7 @@ body {
   .content {
     background-color: #FFF;
     padding: 20px;
+    border-radius: 4px
   }
   .content h2 {
     padding: 0;
