@@ -22,15 +22,17 @@ class History extends Component {
         introduction to the Deep Web confusing and strange in comparison to the static use of the Surface Web.
           </p>
 
-          <p class="center">figure1</p>
+          <sup class="center">Source 6</sup>
           <img src="imagestuff.png" alt="figure1" width="500" height="400" class="center" ></img>
 
 
         <p>The Deep Web is a huge collection of sites being hosted independently for differing reasons.
         Some are perfectly fine by moral standards and others are completely illegal and are explicitly stated to be so.  
         According to researchers Victoria Wang, Jeyong Jung, and Mihnea Mirea from the Security Journal<sup>4</sup>:  
-        These activities could be grouped into three main categories: (i) activism, journalism, and whistle-blowing; 
-        (ii) criminal activities in virtual markets; and (iii) cyber security threats including botnets, malware, and ransomware.”
+        These activities could be grouped into three main categories: 
+        <li>(i) activism, journalism, and whistle-blowing; </li>
+        <li>(ii) criminal activities in virtual markets; </li>
+        <li>(iii) cyber security threats including botnets, malware, and ransomware.”</li>
         The Deep Web had been originally used for social and political purposes where individuals could share their societal and political beliefs without 
         fear of ridicule or prosecution (depending on the environment/government).  By using a truly anonymous platform whistle blowing and freedom of speech
         reaches new heights however unregulated it may be. “During the Egyptian riots, for example, journalists and activists from around the world bypassed 
@@ -47,7 +49,7 @@ class History extends Component {
         
         <p>The Silk Road was taken down by police (as in turned offline, not destroyed) and later different iterations of it have come and gone, bringing forth things such as “Black Market Reloaded” and “Sheep Marketplace” and other quips and naming conventions.
         There has even grown to be an EBay style of user interaction between buyer and seller of different goods, designed to protect anonymity and settle disputes.
-        The Deep Web is not the safest place, security wise.  There exist many hacking programs designed to directly or indirectly attack corporations or random individuals that are sold in various marketplaces.  Creators of malware share various techniques and methods to gain information and break down the barriers of security between devices. 
+        </p><p>The Deep Web is not the safest place, security wise.  There exist many hacking programs designed to directly or indirectly attack corporations or random individuals that are sold in various marketplaces.  Creators of malware share various techniques and methods to gain information and break down the barriers of security between devices. 
          Keyloggers and various consistent connection malware are common market items that despite being simple in concept, have a great deal of tact and design put into them creating stronger stealthier malware tools.  With the use of anonymous cryptocurrency these tools have great market potential.
           </p>
           <p></p>
