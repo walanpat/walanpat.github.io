@@ -8,7 +8,7 @@ class Symbolism extends Component {
         </h1>
         <img src="darknetimg.jpg" alt="figure1" width="500" height="400" class="center" ></img>
 
-        <sup class="center">source 12</sup>
+        <sup class="center">Source 12</sup>
         <p>The Dark web represents (within the western world) the fear of a power structure that exists beyond the realm of authority.
         From here on out I will be referring to the modern, social context for the Dark Web/ Deep Net. I will refer to the Dark Web and Deep net interchangably, because in the publics eye they are
         not entirely different.
