@@ -8,6 +8,7 @@ import {
   import History from "./History";
   import Symbolism from "./Symbolism";
   import Sources from "./Sources";
+  import Sauces from "./Sources2";
 
   import "./index.css";
 //Home
@@ -42,9 +43,10 @@ class Main extends Component {
             <h1 className="center" >The Dark Web through an Anthropological lense</h1>
             <ul className="header">
             <li><NavLink exact to="/">Home</NavLink></li>
-              <li><NavLink to="/history">History</NavLink></li>
-              <li><NavLink to="/Symbolism">Folklore/Symbolism</NavLink></li>
-              <li><NavLink to="/sources">Sources</NavLink></li>
+              <li><NavLink to="/history">Path to Priesthood</NavLink></li>
+              <li><NavLink to="/Symbolism">Ordination Ceremony</NavLink></li>
+              <li><NavLink to="/sources">Priesthood</NavLink></li>
+              <li><NavLink to ='/sauces'>bbbb</NavLink></li>
 
             </ul>
             <div className="content">
@@ -52,6 +54,7 @@ class Main extends Component {
               <Route path="/history" component={History}/>
               <Route path="/symbolism" component={Symbolism}/>
               <Route path="/sources" component={Sources}/>
+              <Route path="/sauces" component={Sauces}/>
 
             </div>
           </div>

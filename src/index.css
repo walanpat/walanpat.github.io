@@ -1,5 +1,5 @@
 body {
-    background-color: #96badd;
+    background-color:crimson;
     padding: 20px;
     margin: 0;
   }
@@ -21,7 +21,7 @@ body {
   }
   ul.header {
     text-align: center;
-    background-color: #111;
+    background-color:black;
     padding: 0;
   }
   ul.header li a {
