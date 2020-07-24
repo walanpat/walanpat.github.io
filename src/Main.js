@@ -40,13 +40,13 @@ class Main extends Component {
       return (
         <HashRouter>
           <div>
-            <h1 className="center" >The Dark Web through an Anthropological lense</h1>
+            <h1 className="center" >Ordination in the Catholic Church</h1>
             <ul className="header">
             <li><NavLink exact to="/">Home</NavLink></li>
               <li><NavLink to="/history">Path to Priesthood</NavLink></li>
               <li><NavLink to="/Symbolism">Ordination Ceremony</NavLink></li>
-              <li><NavLink to="/sources">Priesthood</NavLink></li>
-              <li><NavLink to ='/sauces'>bbbb</NavLink></li>
+              {/* <li><NavLink to="/sources">Priesthood</NavLink></li> */}
+              <li><NavLink to ='/sauces'>Sources</NavLink></li>
 
             </ul>
             <div className="content">

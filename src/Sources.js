@@ -12,16 +12,7 @@ class Sources extends Component {
     return (
       <div>
         <h1 class="center">Sources</h1>
-        <h2>History of the internet</h2>
-       
-        <br></br>
-        
-        <h2>Scholarly Articles</h2>
-        
-        
-        <br></br>
-        <h2>Other Sources</h2>
-       
+      
 
       </div>
     );
