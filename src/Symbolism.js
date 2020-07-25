@@ -1,111 +1,317 @@
-import React, { Component } from "react";
-
+import React, { Component } from 'react';
+import ReactPlayer from 'react-player';
+import layingofhands from './layingofhands.jpg';
+import ordinationstart from './Ordinationstart.jpg';
+import prostration from './Prostration.jpg';
+import eucharist from './Eucharist Image.jpg';
 class Symbolism extends Component {
+  //This is the Ordination Ceremony
   render() {
     return (
-      <div>
-        <h1 class="center">What does it mean?
-        </h1>
-        <img src="darknetimg.jpg" alt="figure1" width="500" height="400" class="center" ></img>
+      <div className='marginpage'>
+        <h1 class='center'>The Ceremony Itself</h1>
 
-        <sup class="center">Source 12</sup>
-        <p>The Dark web represents (within the western world) the fear of a power structure that exists beyond the realm of authority.
-        From here on out I will be referring to the modern, social context for the Dark Web/ Deep Net. I will refer to the Dark Web and Deep net interchangably, because in the publics eye they are
-        not entirely different.
+        <div className='wrapperCenter'>
+          <img src={ordinationstart} className='img3'></img>
+        </div>
+        <div className='wrapperCenter'>
+          <br />
+          <sup>Image Source 7</sup>
+        </div>
+
+        <h2>The Rite of Ordination</h2>
+
+        <p>
+          {' '}
+          The Rite of Ordination is what defines an individual as a priest in
+          the eyes of the Catholic Church. The person receiving it must have
+          already worked as a deacon and it must be performed by ministers of
+          the Holy Orders in order to be considered valid. This ritual is done
+          during a Holy Mass. The candidates are called forward and presented to
+          the assembly (laity and ministers alike) where they are asked
+          questions and make promises. Each then promises to faithfully perform
+          the duties of the priesthood and to obey and respect his ordinary
+          (superior clergyman).
+        </p>
+        <p>
+          Below I will list the process for the entire ordination ceremony. It
+          has multiple stages and each of these stages has unique and important
+          actions to be carried out for the ordination ceremony to be valid.
+        </p>
+        <h3>Introductory Rites</h3>
+        <p>
+          When all is prepared there shall be a procession that moves through
+          the church to the alway in the exact same way as usual Mass is
+          performed. There is a Deacon who shall be carrying the Book of Gospels
+          and is followed by the other deacons (if there are any). From here
+          they are followed by the candidates of ordination, then the
+          con-celebrating priests, and finally the Bishop. The Bishop shall have
+          immediately behind him two deacons who shall assist him.{' '}
+          <sup> Source 9</sup>
+        </p>
+        <h3>Liturgy of the Word</h3>
+        <p>
+          This takes place in its usual form. Liturgy of the Word does not
+          change from its normal occurrance during mass.
+        </p>
+        <br></br>
+        <h1>Liturgy of Ordination</h1>
+        <p>
+          Everything listed from here on out is a part of the Liturgy of
+          Ordination.
+        </p>
+        <br></br>
+
+        <h2>Election</h2>
+        <p>
+          The Calling, Presentation of the candidates, and Election by the
+          Bishop and Assent of the people all fall under the Rites of Election.
+        </p>
+        <h3>Calling of Candidates</h3>
+        <p>
+          When the preparations have been made then each candidate is called
+          forward by the Deacon of the Call.
+        </p>
+        <h3>Presentation of Candidates</h3>
+        <p>
+          The candidates are formally presented to the bishop by the Diocesan
+          Director of the Office of Vocations
+        </p>
+        <h3>Election by the Bishop and Assent of the People</h3>
+        <p>
+          {' '}
+          Here the deacon will call the candidates forward. Their names are
+          called by the deacon. Each one shall answer "Present".
+          <br /> Then each Candidate shall go to the Bishop, from each they
+          shall show him a sign of reverence. <br />
+          Then the Bishop shall state: <br />
+          "Most Reverend Father, Holy mother Church asks you to ordain these,
+          our brothers, to the responsibility of the priesthood, Do you know
+          them to be worthy?"
+          <br />
+          The priest designated by the Bishop shall answer:
+          <br /> "After inquiry among the Christian people and upon the
+          recommendation of those responsible, I testify that they have been
+          found worthy"
+          <br />
+          The Bishop will respond with:
+          <br /> "Relying on the help of the Lord God and our Savior Jesus
+          Christ, we choose these, our brothers, for the Order of the
+          Priesthood."
+          <br />
+          The laity and ordained alike then all respond <br />
+          "Thanks be to god". <br />
+          This affirms the Election by the Bishop and the Assent of the People.
+          <sup>Source 9</sup>
+        </p>
+        <h2>Homily</h2>
+        <p>
+          There will then be an instructional homily discussing the practice of
+          the priesthood according to the teachings of the Second Vatican
+          Council. This homily will speak on how Christ as the teacher, priest,
+          and shepherd continues through the ministerial priesthood. It also
+          states that priests are to be colleagues of the bishop, joining with
+          him in the task of exercising the priesthood office in service to the
+          Citizens of God. The office reminds those too soon to be ordained that
+          they are to model their lives on Jesus Christ, "The Good Shepherd, who
+          came not to be served but to serve, and to seek out and save what was
+          lost".
+        </p>
+        <h3>Promises of the Elect</h3>
+        <p>
+          5 promises must be made to continue with the ordination ceremony
+          <br /> <br />
+          Promise to discharge the office of priesthood in the presbyterial rank
+          as worthy fellow workers with the order of bishops
+          <br /> <br />
+          Promise to exercise the ministry of the word worthily and wisely,
+          preaching the gospel and teaching the Catholic faith
+          <br /> <br />
+          Promise to celebrate faithfully and reverently the mysteries of Christ
+          handed down by the Church, especially the sacrifice of the Eucharist
+          and the sacrament of Reconciliation, for the glory of God and the
+          Sanctification of the Christian People
+          <br /> <br />
+          Promise to implore God's mercy upon the people entrusted to their care
+          by observing the Command to pray without ceasing.?
+          <br /> <br />
+          Promise to be united more closely every day to Christ the High Priest
+          who offered himself for us to the Father as a pure sacrifice and to
+          consecrate themselves to God for the Salvation of All
+        </p>
+        <h3>Promise of Obedience</h3>
+        <p>
+          Once all of these promises have been made, each candidate to be
+          ordained goes to the bishop and makes a promise of obedience. When he
+          does so he kneels before the bishop, placing his hands between the
+          bishops. The bishop will then ask him "do you promise respect and
+          obedience to me and my successors?" The candidate will then answer
+          yes, otherwise he shall be refuted from the clergy.
+        </p>
+        <div className='wrapperCenter'>
+          <h2>Litany of Supplication</h2>
+        </div>
+        <div className='wrapperCenter'>
+          <img src={prostration} className=''></img>
+        </div>
+        <div className='wrapperCenter'>
+          <br />
+          <sup>
+            {' '}
+            Here we see the prostration that occurs during the Litany of
+            Supplication. Image Source 1
+          </sup>
+        </div>
+
+        <p>
+          Every candidate that's made it this far will then prostrate onto the
+          floor and the Litany of the Saints shall be sung. The Litany of the
+          Saints is a prayer asking for the intercession of the saints in so
+          that God may look down favorably upon those who are to be ordained.
+          Then a prayer following the song occurs asking that the Holy Spirit
+          may be poured upon them. During these prayers the faithful (laity) are
+          to join in on the prayers for the candidates for ordination.
+        </p>
+        <h3>Invitation to Prayer</h3>
+        <p>
+          The congregation and minister pray for the soon to be ordained priests
+          and that they receive good health and tidings.
+        </p>
+        <h3>Litany of the Saints</h3>
+        <p>
+          The Litany of the Saints is sung in the church. It's a very ancient
+          prayer that is sung only on Easter Vigil and at Ordination ceremonies.{' '}
+          <sup>Source 11</sup>
+        </p>
+        <h3>Concluding Prayer</h3>
+        <p>
+          "Hear us, we Beseech you, Lord Our God, <br />
+          and pour out on these servants of yours <br />
+          the blessing of the Holy Spirit and the power of
+          <br />
+          priestly grace,
+          <br />
+          that those whom in the sight of your mercy we offer to
+          <br />
+          be consecrated,
+          <br />
+          may be surrounded by your rich and unfailing gifts.
+          <br />
+          Through Christ our Lord."
+          <br />
+          <br />
+          All shall answer: Amen
+          <br />
+          <div>
+            <sup>Source 9, pg. 128</sup>
+          </div>
+        </p>
+        <h2>Laying on of Hands and Prayer of Ordination</h2>
+        <p>
+          The gift of the Holy Spirit is brought to those to be ordained by the
+          laying on of hands and the final prayer of ordination. Here, at the
+          ordination of a priest, the ordaining bishop shall lay his hands on
+          each man to be ordained a priest. All of the priests who are present
+          will then lay hands on each candidate just as the bishop did. This
+          laying on of hands acts as a symbol that they are to be ordained into
+          the presbyterial college of the Church they are being ordained at. All
+          of this must be done in silence, that is because the clergy wishes to
+          keep with an ancient tradition found within an old text known as
+          Apostolic Tradition. Apostolic Tradition is believed by many to have
+          been written by Hippolytus in 280 A.D. Here he states that the laying
+          on of hands occurs in the priests ordination due to the fact that
+          "they all have a common and similar spirit".
+        </p>
+        <div className='wrapperCenter'>
+          <h2>Laying on of Hands</h2>
+        </div>
+        <div className='wrapperCenter'>
+          <img src={layingofhands} alt='Layingofhands' className='img2' />
+        </div>
+        <div className='wrapperCenter'>
+          <br />
+          <sup>
+            {' '}
+            The laying on of hands occurs here as the bishop touches each one of
+            the candidates for priesthood. Image Source 2
+          </sup>
+        </div>
+        <p>
+          Each candidate shall go one by one to the bishop and kneel before him.
+          Then the bishop shall lay his hands on the head of each in complete
+          silence. This laying on of hands and the prayer of ordination which
+          follows directly after shall constitute the essential elements of the
+          sacrament of Holy Orders. Then all the priests shall lay their hands
+          on each head of the candidates.
+        </p>
+        <h3>Prayer of Ordination</h3>
+        <p>
+          The bishop will then say the prayer of ordination alone. This directly
+          alludes to Aaron and the seventy elders as called by Moses. Old
+          testament figures that prefigure the presbyters who will work as
+          coworkers of the bishop? .This prayer is directed directly to the
+          Father who by the grace of the Holy Spirit provides for all forms of
+          ministry within the Church of Christ. After the bishop speaks upon the
+          various forms of ministry exercised within the church he will state
+          that the priests are those who assisted the apostles in making Christ
+          present in the Church today.
+        </p>
+        <h2>Explanatory Rites</h2>
+        <p> The Rites that follow are explanatory Rites:</p>
+        <h3>Investiture with Stole and Chasuble</h3>
+        <p>
+          The newly ordained priests stay standing, and are vested with the
+          stole and chasuble as symbolic representation of their new power and
+          office in the church.
+        </p>
+        <h3>Anointing of Hands</h3>
+        <p>
+          The newly ordained priests have their hands anointed with "sacred
+          chrism". This symbolizes the power granted before them to perform the
+          Eucharist, changing bread into the Body of Christ and wine into the
+          Blood of Christ.
+        </p>
+        <h3>Presentation of Bread and Wine</h3>
+        <p>
+          The ordaining bishop shall then receive gifts of bread and wine from
+          the laity celebrating mass. Once the chalice and paten have been
+          prepared, it is presented to the bishop, who then presents it to the
+          new priests as they kneel before him.{' '}
+        </p>
+        <h3>Kiss of Peace</h3>
+        <p>
+          The bishop leading the ordination ceremony gives a fraternal kiss that
+          is also known as the sign of peace to each of the new priests. The
+          attending priests also follow suit. This gesture specifically is a
+          sign of welcome into the Priesthood of the Catholic Church, which they
+          all share duty in as brothers.
+        </p>
+        <div className='wrapperCenter'>
+          <h3>Liturgy of Eucharist</h3>
+        </div>
+        <div className='wrapperCenter'>
+          <img src={eucharist} alt='Layingofhands' className='img2' />
+        </div>
+        <div className='wrapperCenter'>
+          <br />
+          <sup>Eucharist being given to the Laity. Image Source 3</sup>
+        </div>
+
+        <p>
+          And so the newly ordained priests may engage in the Eucharist with the
+          laity as an ordained priest for the first time. It's a time of
+          celebration and great reverence, as the priests give their first
+          Eucharist with their audience of Ordination.{' '}
         </p>
 
-        <p>There is a common visualization of what the Dark Web is, it’s the “alleyway of the internet”.  It’s this black market, a hidden marketplace for murder, sex, human trafficking, drugs, and much much more.  Not only is it a place hidden from law enforcement it is a place that is morally defunct. “Read nearly any article about the dark web, and you'll get the sense that its name connotes not just its secrecy but also the low-down dirty content of its shadowy realms. You’ll be told that it is home to several nefarious things: stolen data, terrorist sites, and child porn” - Joseph Cox, journalist for Wired news<sup>10</sup>.  Whether or not this is true these rumors come from somewhere and they mean something.  On various news outlets and websites there has been discussion that Al Qaeda had been using the dark web in order to communicate world wide, creating terrorist forums for extremists. </p>
-
-        <p>
-          The internet has been around since the mid 1980s as a network of networks.
-          Why have people been deciding that the Dark Web is a lawless black market for anything and
-          everything?  The “dark” name?  The stories of the Silk Road?
-          Regardless, we can see it’s reputation as being filled with lawless market dealings.
-          The boogeyman of the internet.  Something out there that is morally defunct from the rest of society.
-          It must be run by shady criminals right?
-           </p>
-
-        <p>
-          We consider it as being run by something akin to a mafia,
-          an organized crime indication.  There is this fear of what is being sold,
-          the illicit.  The crime.  It’s the idea that something is being run from underneath our
-          incorruptible internet connection, something we can tap into with the breeze of our fingers.
-          A dangerous element.  We can look at it as a sort of inversion of society almost.  It’s been compared
-          to the wild west after all, why not discuss it and view it as such?  Little to no moderation, many shady dealings,
-          and danger around every click of a hyperlink.  Why wouldn’t we fear it?
-           </p>
-
-        <p>I would view it almost as a conspiracy (once again in order to appreciate and understand the societal values imposed on 
-          the Dark Web we must ignore the binary truth value assigned to much of the western world).  The idea that there exists this massive shadow network
-        of individuals in a seedy market that is accessible from our own internet connection is a daunting one to say the least.  To think that there are recorded instances
-        of people running massive drug trades worldwide via this marketplace.  But, the thing that the dark net/deep web assigns to itself more than anything is anonymity.
-        Put on the (IP address) mask and walk into a new world.  A world where you can’t see anyone's real name or face, race, or ethnicity.
-        A place where you can only see what is being sold.  You could buy a Rocket Propelled Grenade launcher, you could order a hitman, child pornography, perhaps receive
-        a mail order bride.  Anyone could do it in fact.  It’s as simple as having an internet connection and a bank account.  Mind you, you can also just turn your money into
-        cryptocurrency, an also untraceable method of conducting business across any platform.
-              </p>
-
-        <p>Is it the fear of anonymity in
-        the otherwise constantly identifiable world?
-        Whereas you may be anonymous at your own whim on many sites, now everyone has it?
-        The fear of unidentifiable power that anyone could have.
-        Your neighbor, your best friend, your mother, brother, any of them really.
-        The president could have it, the business owner down the street could order whatever they wanted.
-        The ease of access (and simultaneously the lack of knowledge on the ease of access) is a level of
-        terrifying knowledge that many people think just having is incriminating enough.  There exists a concept about the Darkweb in
-        part a combination of powerful anonymity and ease of access that people mystify it as such.  However one must consider the idea that
-        there is a large population of the American public that doesn’t actually KNOW how to access it.  They don’t know you can download the
-        TOR (The Onion Router) to access any website with a level of privacy that the common individual just assumes they may already have.  Using
-        TOR you can access anything by using various encryptions in order to protect your privacy, thus allowing any basic browsing data on an individual
-        to be hidden from various purchasers/gatherers of information.
-          </p>
-
-        <p>Despite the fact that this anonymity has been used for much good such as whistleblowing on corruption within government agencies and corporations,
-        there is this belief that such anonymity means there are darker secrets to hide. This belief that if you have nothing to hide, then why would you ever
-        bother hiding information at all?  “The innocent have nothing to hide” is a saying that many Americans believe.
-          </p>
-        <p>It’s possible to read a distrust of individuals with more than capable computer/techno literacy within the “modern computer” realm of expertise. Your 
-          average 40-50 year old wouldn’t know how to access such a thing, in fact the idea of not using the most common web browsers might create great discomfort in
-        such a user.  The individuals who grew up with more and more technology being integrated into everyday living at a younger age are shown to have a firmer
-        grasp on the fundamentals of internet safety and browsing.  We have to take into account the level of mystery that the less technologically inclined or more
-        technologically disconnected feel about such things.
-            </p>
-        <h2 class="center">Wrap Up</h2>
-        <p>If we analyze this stigma around the DarkWeb
-        as some form of a “Hidden Transcript”, a way of venting discourse or frustration around individuals with power then we can begin to see an idea here.
-              This narrative of </p>
-        <li>A shadowy marketplace that anyone can access</li>
-        <li>Pure Anonymity in an otherwise non-anonymous world</li>
-        <li>Societal Taboos are for sale here</li>
-        <li>It's "public" to anyone who is comfortable with computers yet "secret" to anyone who is not</li>
-
-        <p>This shows us a few things and allows us to draw many different possible interpretations, I'll discuss the one I think is most pliable within my experiences and 
-          research although more definitely exist.</p>
-        <p>I can narrow it down to what I think is a fear of the “technologically educated” in combination with the fact 
-          that technology is becoming more and more involved into everyday lives.  Money transactions are online, sharing information
-        online, marketing is online, there’s more and more that’s going to be eternally locked into this digital world.  To coin
-        it in a word, a sort of aristo-techno-phobia.  Not the fear of technology itself, which is technophobia but instead the fear
-        of the more well equipped technologically.  Which can be tied even deeper to some form of fear of inferiority, of powerlessness in the
-        new dimension of the first world countries.
-              </p>This feeling of powerlessness isn't random                
-                In the cultural world there is a level of uncertainty that is scary.  There is a comfort within technology that others do not have.
-                It's important to note I'm not talking about individuals who use facebook all day and don't know how to use 
-                "the google" (although they could be included in this discussion) 
-                I'm discussing a worker removed from a more complicated framework, someone who works in society without the guise of a formal technological education.
-                I would argue the vast majority of the U.S. population doesn't have this style of education creating a gap between those who do have this knowledge and those who do not.
-                Those who do have this knowledge might be represented as smarter and more dangerous to the success of others without this knowledge.   
-              <p>  
-              </p>
-
-
-        <p>To be made uneducated about the world in the wake of a revolution similar to the industrial revolution puts this group of people in a 
-          less powerful state.  This advancement into a technological revolution has created a group of people who can use the tools given to them but not
-        understand the context for the tools themselves (tools meaning many facets of social media, e-banking,  and other common applications within the
-        E-world we live in).  It creates a sense of fear, a sense of distrust.  This distrust is being expressed through the rumors and hidden transcript within
-        the idea of the Dark Web.  This is done specifically through the villification and creation of a mysterious sub culture to the internet that is teeming with danger.
-        It can be looked at as a fear of being left behind culturally while being taken advantage of by the new generation (technological and literal generation). 
-         Afterall, being left behind by your own culture's advances can symbolistically be akin to the obsolescence of a whole generation 
-         of people, and to the people. </p>
+        <h3 className='center'>
+          If you are interested here is a full ordination ceremony that was
+          performed in 2016 by the Archdiocese of Washington:
+        </h3>
+        <div className='center'>
+          <ReactPlayer url='https://www.youtube.com/watch?v=au6uOPf-DcY' />
+        </div>
+        <br />
       </div>
     );
   }

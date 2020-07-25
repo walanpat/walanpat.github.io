@@ -1,16 +1,16 @@
 body {
-    background-color: #96badd;
+    background-color:crimson;
     padding: 20px;
     margin: 0;
   }
   .center{
+    display: flex;
     text-align: center;
-    display: block;
     justify-content: center;
-    align-items: center;
-    margin: auto;
+    font-family: sans-serif;
+
   }
-  h1, h2, p, ul, li {
+  h1, h2, h3, p, ul, li {
     text-indent:50px;
     font-family: sans-serif;
   }
@@ -18,11 +18,15 @@ body {
     display: inline;
     list-style-type: none;
     margin: 0;
+    font-family: sans-serif;
+
   }
   ul.header {
     text-align: center;
-    background-color: #111;
+    background-color:black;
     padding: 0;
+    font-family: sans-serif;
+
   }
   ul.header li a {
     color: #FFF;
@@ -30,16 +34,65 @@ body {
     text-decoration: none;
     padding: 20px;
     display: inline-block;
+    font-family: sans-serif;
+
   }
   .content {
     background-color: #FFF;
     padding: 20px;
-    border-radius: 4px
+    border-radius: 4px;
+    font-family: sans-serif;
+
   }
   .content h2 {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
+
   }
   .content li {
     margin-bottom: 10px;
+    font-family: sans-serif;
+
+  }
+  .wrapper{
+    display: flex;
+    font-family: sans-serif;
+
+  }
+  p{
+    font-size: larger;
+    margin-left: 2%;
+    margin-right: 13%;
+    font-family: sans-serif;
+
+  }
+  .t1{
+    font-weight: bold;
+    font-family: sans-serif;
+
+  }
+  .img1{
+    display: flex;
+    width: 20%;
+    height: 20%;
+    align-items: center;
+  }
+  .img2{
+    display: flex;
+    width: 40%;
+    height: 20%;
+    align-items: center;
+  }
+  .img3{
+    display: flex;
+    width:70%;
+  }
+  .wrapperCenter{
+    display: flex;
+    justify-content: center;
+  }
+  .marginpage{
+    margin-left: 2%;
+    margin-right: 13%;
   }
