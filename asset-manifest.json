@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/walanpat.github.io/static/css/main.fd6ab39f.chunk.css",
+    "main.js": "/walanpat.github.io/static/js/main.2ad87f22.chunk.js",
+    "main.js.map": "/walanpat.github.io/static/js/main.2ad87f22.chunk.js.map",
+    "runtime-main.js": "/walanpat.github.io/static/js/runtime-main.d8bfa98f.js",
+    "runtime-main.js.map": "/walanpat.github.io/static/js/runtime-main.d8bfa98f.js.map",
+    "static/js/2.7ae5c109.chunk.js": "/walanpat.github.io/static/js/2.7ae5c109.chunk.js",
+    "static/js/2.7ae5c109.chunk.js.map": "/walanpat.github.io/static/js/2.7ae5c109.chunk.js.map",
+    "index.html": "/walanpat.github.io/index.html",
+    "precache-manifest.77209acf71b8cb777359a80b29437c0b.js": "/walanpat.github.io/precache-manifest.77209acf71b8cb777359a80b29437c0b.js",
+    "service-worker.js": "/walanpat.github.io/service-worker.js",
+    "static/css/main.fd6ab39f.chunk.css.map": "/walanpat.github.io/static/css/main.fd6ab39f.chunk.css.map",
+    "static/js/2.7ae5c109.chunk.js.LICENSE.txt": "/walanpat.github.io/static/js/2.7ae5c109.chunk.js.LICENSE.txt",
+    "static/media/Eucharist Image.jpg": "/walanpat.github.io/static/media/Eucharist Image.cc6cd9b2.jpg",
+    "static/media/MyFace.jpg": "/walanpat.github.io/static/media/MyFace.53a5bd9f.jpg",
+    "static/media/Ordinationstart.jpg": "/walanpat.github.io/static/media/Ordinationstart.dfd9de91.jpg",
+    "static/media/Oxford.jpg": "/walanpat.github.io/static/media/Oxford.19d1b870.jpg",
+    "static/media/Paperwork.jpg": "/walanpat.github.io/static/media/Paperwork.d660b193.jpg",
+    "static/media/Prostration.jpg": "/walanpat.github.io/static/media/Prostration.acb7d2e0.jpg",
+    "static/media/layingofhands.jpg": "/walanpat.github.io/static/media/layingofhands.3556551e.jpg",
+    "static/media/monks.jpg": "/walanpat.github.io/static/media/monks.1ca07ea1.jpg",
+    "static/media/walkingtochurch.jpg": "/walanpat.github.io/static/media/walkingtochurch.5e094b96.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8bfa98f.js",
+    "static/js/2.7ae5c109.chunk.js",
+    "static/css/main.fd6ab39f.chunk.css",
+    "static/js/main.2ad87f22.chunk.js"
+  ]
+}
