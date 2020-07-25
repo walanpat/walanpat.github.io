@@ -84,6 +84,10 @@ body {
     height: 20%;
     align-items: center;
   }
+  .img3{
+    display: flex;
+    width:70%;
+  }
   .wrapperCenter{
     display: flex;
     justify-content: center;

@@ -10,6 +10,8 @@ class Home extends Component {
           Chapel Hill student double majoring in Religion and Computer Science. I am still a student but I am also currently working for NHDev inc.</p>
           <div className="wrapperCenter"><img src={MyFace} className="img1"/></div>
 
+          Note: This is focused on becoming a priest in the United States.  It varies from country to country but this is the standard path for someone in the U.S.
+
         <p>This is a website designed for the 2020 Summer Session 2 Modern Catholicism class taught 
           by Professor Evyatar Marienberg. 
           This version is published as of 7/24 at approxximately 11pm.  

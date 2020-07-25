@@ -16,7 +16,9 @@ class History extends Component {
         <div className="wrapperCenter"><br/><sup>Image Source 4</sup></div>
         <div className='wrapper'>
          
-          <p>
+          <p> 
+            <br/>            <br/>
+
             Discernment is the process in which a Catholic individual begins to
             recognize their vocation within the church. They can discern into
             three different vocations, life as a layman in the church, ordained
@@ -30,7 +32,7 @@ class History extends Component {
             <br />
             <br />
             <div className='t1'>Ordained</div>
-            These are individuals who have received the scarament of Ordination,
+            These are individuals who have received the sacrament of Ordination,
             also known as the Holy Orders. The ordained are not only priests and
             bishops, but 1/3 of all ordained are members of the Institute of
             Consecrated life <sup>Source 1</sup>.
@@ -56,7 +58,7 @@ class History extends Component {
             lives to a specific cause that they see as aiding one or another
             groups or communities. 
             <br/>
-            <div className="wrapperCenter"><img src={monks}></img></div>
+            <div className="wrapperCenter"><img src={monks} className="img3"></img></div>
             <div className="wrapperCenter"><sup>Catholic Monks from Conception Abbey.  Image Source 8 </sup></div>
             <div className="wrapperCenter"><sup></sup></div>
 
@@ -116,13 +118,13 @@ class History extends Component {
             <br />
             Step 4:Listen
             <br />
-            Learn to listen to the voice of God, block out some of the noice
+            Learn to listen to the voice of God, block out some of the noise
             from our already incredibly immersive life and take a step back. In
             this way we see a similar discussion to that of rejecting the
             physical world as is done by Buddhist monks, but in a different
             sense. Catholicism doesn't outright condemn these things, however in
-            order to pursure the priesthood one must learn to block out some of
-            the worlds more earthly distractions.
+            order to pursue the priesthood one must learn to block out some of
+            the world's more earthly distractions.
             <br />
             <br />
             Step 5: Rid Life of Obstacles
@@ -133,10 +135,10 @@ class History extends Component {
             Step 6: Give Everything
             <br />
             This next step is about responding to that love Jesus gives us and
-            all taht we are. Give yourself entirely to Jesus, and build up your
+            all that we are. Give yourself entirely to Jesus, and build up your
             personal relationship with him. In this step the use of the
-            Sacramants, Prayer, and Virtues are discussed to help find depth in
-            a relationship with Jesus. They end touching upon Aesceticism, or as
+            Sacraments, Prayer, and Virtues are discussed to help find depth in
+            a relationship with Jesus. They end touching upon Asceticism, or as
             the church defines it "Making Sacrifices" in order to fully embrace
             Jesus's love.
             <br />
@@ -144,8 +146,8 @@ class History extends Component {
             Step 7:Know His voice
             <br />
             This one is interesting. According to the Arch-Diocese of Boston we
-            see a discussion of 4 different voices The voice of God, The self,
-            The Devil, and The World. Properly understanding these voices taht
+            see a discussion of 4 different voices. The voice of God, The self,
+            The Devil, and The World. Properly understanding these voices that
             occur around and within us is important to becoming a priest,
             developing a secure sense of self, and a secure relationship with
             Jesus.
@@ -166,7 +168,7 @@ class History extends Component {
             <br/> 
             <div className="wrapperCenter"><h2>Sponsorship</h2></div>
             <br />
-            <div className="wrapperCenter"><img src={paperwork}></img></div>
+            <div className="wrapperCenter"><img src={paperwork} className="img3"></img></div>
             <div className="wrapperCenter"><br/><sup>Image Source 5</sup></div>
 
             <br />
@@ -208,7 +210,7 @@ class History extends Component {
             <br /> <br />
             
             <br /> <br />
-            <br /> Once you've turned all of this in on top of any other
+            <br /> Once you've turned all of this in, including any other
             paperwork that might be required (Some diocese request various
             separate forms be filled out) then the Diocese must go through all
             of it and set up different interviews. Interview at a seminary After
