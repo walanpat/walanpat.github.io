@@ -2,7 +2,7 @@
   "name": "react_spa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://walanpat.github.io/maymesterclassfinal",
+  "homepage": "http://walanpat.github.io/ss2classfinal",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
